@@ -29,10 +29,18 @@ body {
     padding: 0px 80px 0px 50px;
 }
 
-.logo-container{
+.img-hero{
+    width: 350px;
     height: 100%;
     display: flex;
     align-items: center;
+}
+
+#img-pizza{
+    /* position: absolute; */
+    width: 400px;
+    /* top: 200px; */
+    /* right: 230px; */
 }
 
 .logo-container img {
@@ -65,17 +73,18 @@ body {
     align-items: center;
     margin: 0 auto;
     padding: 70px 0;
-    width: 95%;
+    gap: 30px;
+    width: 100%;
     max-width: 1300px;
     color: white;
 }
 
 h1 {
-    position: absolute;
+    /* position: absolute; */
     width: 603px;
     height: 93px;
-    left: 250px;
-    top: 200px;
+    /* left: 250px; */
+    /* top: 200px; */
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -84,11 +93,11 @@ h1 {
 }
 
 h2 {
-    position: absolute;
+    /* position: absolute; */
     width: 639px;
-    height: 118px;
-    left: 250px;
-    top: 270px;
+    height: 90px;
+    /* left: 250px; */
+    /* top: 270px; */
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -96,12 +105,15 @@ h2 {
     line-height: 66.82px;
 }
 
+h4 {
+    font-size: 16px;
+}
 h6 {
-    position: absolute;
+    /* position: absolute; */
     width: 639px;
-    height: 118px;
-    left: 250px;
-    top: 330px;
+    height: 90px;
+    /* left: 250px; */
+    /* top: 330px; */
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -109,24 +121,108 @@ h6 {
     line-height: 56px;
 }
 
-#img-pizza{
+p {
     position: absolute;
-    width: 350px;
-    top: 200px;
-    right: 230px;
+    top: 630px;
+    left: 190px; 
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 22px;
+}
+
+.recomendaciones {
+ display: flex;
+ justify-content: center;
+ align-items: center; 
+ width: 1117px;
+ height: 104px;
+}
+
+.cards-r{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    width: 300px;
+    height: 103px;
+    background: #252525;
+border-radius: 15px;
+}
+
+
+.p-cat{
+position: absolute;
+top: 850px;
+left: 190px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color: white;
+}
+
+.categorias {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 1117px;
+    height: 104px;
+    gap: 30px;
+}
+
+.cards-c{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1117px;
+    height: 160px;
+    background: #252525;
+border-radius: 15px;
+}
+
+.p-pop{
+    position: absolute;
+    top: 1123px;
+    left: 190px;
+}
+.populares{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+    width: 1300px;
+    gap: 10px;
+}
+
+.cards-p{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 213px;
+    background: #252525;
+border-radius: 15px;
+}
+
+#pop-imgs{
+    width: 150px;
+    border-radius: 16px;
 }
 
 .btn-ver {
     background: linear-gradient(98.81deg, #FFA100 -0.82%, #FB103D 101.53%);
     box-shadow: 11px 28px 50px rgba(20, 78, 90, 0.2);
     border-radius: 15px;
-    position: absolute;
+    /* position: absolute; */
     width: 166px;
     cursor: pointer;
     height: 50px;
     color: white;
-    top: 400px;
-    left: 250px;
+    /* top: 400px; */
+    /* left: 250px; */
     font-family: 'Montserrat';
     font-weight: 700;
     font-size: 14px;
@@ -136,7 +232,7 @@ h6 {
     background: linear-gradient(98.81deg, #FFA100 -0.82%, #FB103D 101.53%);
     box-shadow: 11px 28px 50px rgba(20, 78, 90, 0.2);
     border-radius: 15px;
-    position: absolute;
+    /* position: absolute; */
 width: 54px;
 height: 15px;
 font-family: 'Montserrat';
