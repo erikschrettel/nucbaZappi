@@ -212,6 +212,17 @@ border-radius: 15px;
     border-radius: 16px;
 }
 
+.footer{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 70px 0;
+    color: white;
+}
+
+
 .btn-ver {
     background: linear-gradient(98.81deg, #FFA100 -0.82%, #FB103D 101.53%);
     box-shadow: 11px 28px 50px rgba(20, 78, 90, 0.2);
