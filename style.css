@@ -249,9 +249,10 @@ p {
     padding: 15px;
 }
 
-.cards-c h3 {
+.cards-c a {
     font-weight: 400;
     font-size: 15px;
+    color: #FFFFFF;
 } 
 
 .cards-c span {
