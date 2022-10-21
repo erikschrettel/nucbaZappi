@@ -1,4 +1,4 @@
-const cartMenu = document.querySelector(".cart");
+const cartMenu = document.querySelector(".cartBase");
 const masPopulares = document.querySelector(".section");
 
 let cart = JSON.parse(localStorage.getItem("cart")) || [];
