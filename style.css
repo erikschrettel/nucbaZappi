@@ -55,6 +55,7 @@ body {
 
 .navbar-list{
     gap: 50px;
+    position: relative;
 }
 
 .navbar i {
@@ -254,3 +255,27 @@ line-height: 15px;
 letter-spacing: 0.5px;
 color: #FFFFFF;
 }
+
+.cartContainer{
+    bottom: 25%;
+    left: 70%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 800px;
+    color: #FFFFFF;
+    background-color: #FB103D;
+}
+
+.cartBase {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+
